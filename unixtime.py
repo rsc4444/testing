@@ -17,8 +17,6 @@ def unixToDate(year,month,day,hour,minute,second):
     years = year - START_YEAR
     yearsInSeconds = (years*365 + getNumberOfLeapYears(START_YEAR,year)) * SECONDS_PER_DAY
     
-    print(days)
-    
     
     
     
